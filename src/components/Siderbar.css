@@ -1,0 +1,67 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: .35;
+    border-right: 1px solid lightgray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 25px;
+    /* min-width: 10vw; */
+}
+
+/* .headerRight > .MuiSvgIcon-root {
+    margin-right: 2vw;
+    font-size: 24px !important;
+} */
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    height: 40px;
+    padding: 10px;
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.searchContainer > input {
+    border: none;
+    margin-left: 10px;
+    height: 100%;
+    /* font-size: 11px; */
+}
+
+.searchContainer > .MuiSvgIcon-root {
+    color: gray;
+    padding: 10px;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.chats {
+    flex: 1;
+    overflow: scroll;
+}

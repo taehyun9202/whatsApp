@@ -1,0 +1,37 @@
+.sidebarChat {
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
+    height: 20px
+}
+
+.sidebarChat:hover {
+    background-color: white;
+}
+
+.chatInfo > h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: -10px;
+}
+
+.chatInfo > p {
+    margin-top: -10px;
+}
+
+.chatInfo { 
+    margin-left: 15px;
+}
+
+.avatar {
+    margin-top: -10px;
+}
+/* .MuiAvatar-img {
+    position: relative;
+    top:
+} */
+
+.sidebarChat > h3 {
+    margin: auto 0;
+}
